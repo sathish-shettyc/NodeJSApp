@@ -1,8 +1,5 @@
 var express = require('express'),
     app = express();
-    var a = function sample(stuff) {
-        console.log('this is a sample message');
-    }
     app.set('views', 'views');
     app.set('view engine', 'jade');
     app.get('/', function(req, res) {
