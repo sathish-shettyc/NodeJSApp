@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --reporter spec",
+    "test": "./node_modules/mocha/bin/mocha --recursive -R xunit test/ > test-reports.xml",
     "start": "node ./index.js"
   },
   "repository": {
