@@ -4,7 +4,7 @@ describe('GET /', function() {
     it('expects to get http response code 200', function(done) {
         request(app)
         .get('/')
-        .expect(200, done);
+        .expect(201, done);
     });
     it('expects to get correct content type', function(done) {
         request(app)
