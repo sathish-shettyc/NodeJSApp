@@ -1,5 +1,0 @@
-<testsuite name="Mocha Tests" tests="3" failures="0" errors="0" skipped="0" timestamp="Thu, 22 Sep 2016 12:51:26 GMT" time="0.05">
-<testcase classname="GET /" name="expects to get http response code 200" time="0.036"/>
-<testcase classname="GET /" name="expects to get correct content type" time="0.008"/>
-<testcase classname="GET /" name="expects to get correct content" time="0.003"/>
-</testsuite>
