@@ -1,0 +1,89 @@
+Replication Controller		{5}
+		
+kind	:	ReplicationController
+		
+apiVersion	:	v1
+		
+	metadata		{8}
+		
+name	:	sample-api
+		
+namespace	:	default
+		
+selfLink	:	/api/v1/namespaces/default/replicationcontrollers/sample-api
+		
+uid	:	61030b38-80b9-11e6-9441-0a717eb3570d
+		
+resourceVersion	:	4541
+		
+generation	:	1
+		
+creationTimestamp	:	2016-09-22T11:40:36Z
+		
+	labels		{2}
+		
+app	:	sample-api
+		
+version	:	11
+		
+	spec		{3}
+		
+replicas	:	2
+		
+	selector		{2}
+		
+app	:	sample-api
+		
+version	:	11
+		
+	template		{2}
+		
+	metadata		{3}
+		
+name	:	sample-api
+		
+creationTimestamp	:	null
+		
+	labels		{2}
+		
+app	:	sample-api
+		
+version	:	11
+		
+	spec		{5}
+		
+	containers		[1]
+		
+	0		{6}
+		
+name	:	sample-api
+		
+image	:	rajatpandit/sample-api:11
+		
+	resources		{0}
+	(empty object)
+		
+terminationMessagePath	:	/dev/termination-log
+		
+imagePullPolicy	:	IfNotPresent
+		
+	securityContext		{1}
+		
+privileged	:	false
+		
+restartPolicy	:	Always
+		
+terminationGracePeriodSeconds	:	30
+		
+dnsPolicy	:	ClusterFirst
+		
+	securityContext		{0}
+	(empty object)
+		
+	status		{3}
+		
+replicas	:	2
+		
+fullyLabeledReplicas	:	2
+		
+observedGeneration	:	1
