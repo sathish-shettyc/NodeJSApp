@@ -5,7 +5,7 @@ var express = require('express'),
     app.get('/', function(req, res) {
         res.json({
             'hello': 'world',
-            'version': '0.1'
+            'version': '0.2'
         })
     });
     app.listen(8080);
