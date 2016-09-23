@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: web-api
-        image: rajatpandit/my-api:build-#build#
+        image: rajatpandit/my-api:build-15
         ports:
         - containerPort: 8080
